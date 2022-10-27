@@ -1,0 +1,110 @@
+
+body{
+    margin: 0px;
+}
+
+#header{
+    color: white;
+    font-family: 'Pridi', sans-serif;
+    text-decoration: none;
+    background-color: #9B9CA0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    }
+
+
+div#text1{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+div#text2{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+div#boton1{
+
+    display: flex;
+    justify-content: center;
+    gap: 0 1.25rem;
+}
+
+
+.btn{
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+	display: inline-block;
+	padding: 10px 5px;
+	text-decoration: none;
+}
+.nonebtn{
+    color: white;
+    background-color: #9B9CA0;
+	display: inline-block;
+	padding: 10px 5px;
+}
+
+div#columnas1 {
+    background-color:#D7D7D7 ;
+    display: flex;
+    flex-direction: row;
+    column-count:4;
+    column-gap:30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    
+}
+
+
+.btn2{
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+}
+
+
+nav a{
+
+    text-decoration: none;
+    color: white;
+    padding: 5px 12px 5px 12px;
+    padding-left: 30px;
+    
+}
+
+
+.link2{
+        border: 15px #9B9CA0 ; /*anchura, estilo y color borde*/
+        padding: 5px 12px 5px 12px; /*espacio alrededor texto*/
+        background-color: #000000; /*color botón*/
+        color: #ffffff; /*color texto*/
+        text-decoration: none; /*decoración texto*/
+        border-radius: 50px; /*bordes redondos*/
+        font-size: 15px;
+}
+
+hr{
+    color: white;
+    width: 70%;
+}
+
+nav{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-bottom: 50px;
+}
+#hr1{
+
+    color: #9B9CA0;
+    width: 70%;
+}
